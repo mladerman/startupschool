@@ -46,11 +46,11 @@ h2.inline-header {
 
 .avatar-container {
   float: left;
-  width: 33%;
+  width: 15%;
 }
 .avatar {
   width: 100%;
-  height: auto;
+  height: 50%;
 }
 
 .content-container {
@@ -58,14 +58,14 @@ h2.inline-header {
   width: 67%;
 }
 .content-header {
-  background: #387A94;
-  color: white;
+  background: #444;
+  color: #f0f0f0;
   padding: 5px 15px;
   border-bottom: 2px solid #aaa;
 }
 
 .content-section {
-  margin-left: 3px;
+  margin-left: 15px;
   margin-top: 10px;
 }
 

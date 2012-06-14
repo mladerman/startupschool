@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>John Capecelatro</title>
+  <title>Andrew Dunn</title>
 
   <!-- Everyone can use Bootstrap Styles http://twitter.github.com/bootstrap/ -->
   <!-- Do not edit the bootstrap file -->
@@ -21,14 +21,15 @@
         <img id="logo" src="images/BSS_Logo_256x761 (3).PNG">
 
         <!-- Insert your name below -->
-        <h1>John Capecelatro</h1>
+        <h1>Andrew Dunn</h1>
 
         <!-- Fill in your skills below; Add more span tags if you would like more "skill space" -->
         <div id="skills">
-          <span>Negotiation</span>
-          <span>Leadership</span>
           <span>Business Development</span>
-          <div id="fl"><span>Foreign Language</span></div>
+          <span>Sales</span>
+			<span>MS Office</span>
+          <span>Final Cut Pro</span>
+         
         </div>
 
         <br>
@@ -36,10 +37,10 @@
         <!-- Fill interests below; Add more span tags if you would like more "interest space" -->
         <h2>Interests</h2>
         <div id="interests">
-          <span>Water Skiing</span>
-          <span>Cooking</span>
-          <span>Music</span>
-          <span>Beer</span>
+          <span>Travel</span>
+          <span>Snowboarding / Skiing</span>
+          <span>Entrepreneurship</span>
+          <span>Adventures</span>
         </div>
       </div>
 
@@ -52,7 +53,7 @@
 
           <div class="bar_cover">
             <!-- Adjust heading for your specific track -->
-            <div class="bar">Software Development</div>
+            <div class="bar">Marketing</div>
           </div>
         </div>
 
@@ -68,10 +69,10 @@
 
       <div class="row">
         <div class="span6">
-          <!-- Write your background below; keep this to a few poignant sentences please -->
+          <!>
           <div id="profile_background">
             <h2>Background</h2>
-            This is where the tl;dr of the person is going to go. Blah Blah I am cool.
+            Aspiring entrepreneur from NY. Studied entrepreneurship and operations at the University of Pennsylvania's Wharton School. Avid traveler and fan of anything outdoors. Partipating in Boston Startup School's Marketing track in order to gain the skills that will bring my own startup(s) to the next level. 
           </div>
         </div>
 
@@ -79,11 +80,11 @@
           <div class="social_footprint">
             <h2>Social Footprint</h2>
             <!-- Replace these links and text ONLY (leave target alone} with your own profiles -->
-            <a href="http://twitter.com/jcap49" target="_blank">@jcap49</a>
+            <a href="http://twitter.com/jcap49" target="_blank">@aandrewdunn</a>
             <br>
-            <a href="http://www.github.com/jcap49" target="_blank">Github Profile</a>
-            <br>
-            <a href="http://www.linkedin.com/johncapecelatro" target="_blank">Linkedin Profile</a><br>
+            
+            <a href="http://www.linkedin.com/in/andrewmurraydunn" target="_blank">Linkedin Profile</a><br>
+			<a href="www.notsomekid.com" target="_blank">Music Blog</a><br>
           </div>
         </div>
       </div>
