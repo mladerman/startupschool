@@ -3,6 +3,7 @@
 }
 #logo {
   height: 100px;
+  margin-bottom:30px;
 }
 .bar {
   background: black;
@@ -103,8 +104,10 @@
 }
 #profile_background {
   float: left;
+  margin-top: -70px;
 }
 .social_footprint {
   float: right;
   margin-right: 177px;
+  margin-top:-70px;
 }
