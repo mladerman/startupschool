@@ -25,10 +25,11 @@
 
         <!-- Fill in your skills below; Add more span tags if you would like more "skill space" -->
         <div id="skills">
-          <span>Negotiation</span>
-          <span>Leadership</span>
           <span>Business Development</span>
-          <div id="fl"><span>Foreign Language</span></div>
+          <span>Sales</span>
+			<span>MS Office</span>
+          <span>Final Cut Pro</span>
+         
         </div>
 
         <br>
