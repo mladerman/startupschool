@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #----------------------------------------------------------------------------
 # Ignore these files when commiting to a git repository
 #
@@ -60,3 +61,6 @@ tmp/*
 
 # vim artifacts
 **.swp
+=======
+.DS_Store
+>>>>>>> e2ee8cf721fa54d42828131912dd56f545fe077f
