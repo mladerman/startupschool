@@ -97,27 +97,31 @@ background-color: transparent;
 border: 1px solid blue;
 }
 
+.thumbnail{
+}
+
 .thumbnail span{ /*CSS for enlarged image*/
 position: absolute;
 background-color: lightyellow;
-padding: 5px;
+padding: 2px;
 left: -1000px;
 border: 1px dashed gray;
 visibility: hidden;
 color: black;
+width: 206px;
 text-decoration: none;
 }
 
 .thumbnail span img{ /*CSS for enlarged image*/
 border-width: 0;
-width: 260px;
-padding: 2px;
+padding-right: 2px;
+width: 200px;
 }
 
 .thumbnail:hover span{ /*CSS for enlarged image*/
 visibility: visible;
 top: 0;
-left: 00px; /*position where enlarged image should offset horizontally */
+position:center; /*position where enlarged image should offset horizontally */
 z-index: 50;
 }
 
