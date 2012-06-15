@@ -1,8 +1,11 @@
+
+
 .container {
   margin-top: 40px;
 }
 #logo {
   height: 100px;
+  margin-bottom: 25px;
 }
 .bar {
   background: black;
@@ -58,7 +61,7 @@
   margin-bottom: 10px;
 }
 .row {
-  margin-bottom: 75px;
+  margin-bottom: 20px;
 }
 #skills span {
   overflow:hidden;
@@ -96,8 +99,11 @@
   padding:2px 4px;
   font-size: 16px;
   border-radius: 8px;
-}
 
+}
+#interests {
+  line-height:30px;
+  }
 .bottom_container {
   font-size: 16px;
 }
