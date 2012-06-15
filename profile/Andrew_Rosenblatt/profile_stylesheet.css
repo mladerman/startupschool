@@ -1,0 +1,65 @@
+body, html {
+  min-height: 100%;
+  background: url(images/background_texture.png);
+}
+ul,li{
+	list-style: none;
+}
+#container{
+	/*background-color: #EBEBEB;*/
+	height:375px;
+	overflow:hidden;
+	position: absolute;
+	width:100%;
+}
+#container div{
+	float: left;
+	height:100%;
+	position: absolute;
+}
+.color_bar{
+	width:30px;
+	background-color: #FFF;
+}
+.color_bar.pink{
+	background-color: #e6367f;
+}
+.color_bar.orange{
+	background-color: #F64D0B;
+}
+.color_bar.yellow{
+	background-color: #fd8c0c;
+}
+.info_paine{
+	
+}
+.info_paine.photo{
+	background: #DDD url('images/idphotosm.jpg') no-repeat;
+	width:500px;
+}
+.info_paine.info{
+	width:350px;
+}
+.info_paine.info ul{
+	padding: 20px 0px 40px 0px;
+}
+.info_paine.info h1{
+	color:#FFF;
+	padding: 5px 5px 5px 15px;
+	background-color: #00A1F2;
+}
+.info_paine.info li{
+	padding: 5px 0px 5px 0px;
+	font-size: 110%;
+}
+.info_paine.info li h2{
+	font-size: 105%;
+	display: inline;
+}
+.info_paine.info a{
+	margin-right: 20px;
+}
+.patch{
+	background-color: #DFDAD5;
+	padding: 0.2em;
+}

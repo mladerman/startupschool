@@ -9,14 +9,14 @@
   height: 50px;
 }
 #profile_image {
-  width: 350px;
+  width: 200px;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.45);
 }
 #track_icon { }
 .icon {
   float: left;
-  width: 128px;
-  height: 128px;
+  width: 70px;
+  height: 70px;
 }
 .span8 h1 {
   font-size: 40px;
