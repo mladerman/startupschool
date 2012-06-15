@@ -19,10 +19,9 @@ html {
 }
 
 .wrapper{
-    position:relative;
-    top:50px;
-    right:30px;
-    margin-left:100px;
+    position:absolute;
+    top:20px;
+    left:20px;
     background-color: #3BA4DB;
     width:400px;
     border-bottom-left-radius:25px;
@@ -31,10 +30,23 @@ html {
     border-top-right-radius:25px;
 }
 
+img.bss {
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+
 .header {
     overflow:auto;
     height: 144px;
     line-height:144px;
+}
+a {
+    color: #C27E00;
+}
+a:hover, a:active {
+    text-decoration:none;
+    color: darkorange;
 }
 
 .header h1, .header img{
@@ -48,10 +60,12 @@ html {
 
 div.bio {
     position:relative;
-    min-height:250px;
+
+    padding:3px;
 }
 .bio ul {
     overflow:auto;
+    margin:0px;
     margin-left:15px;
 }
 .bio li {
@@ -79,9 +93,11 @@ h2 {
     margin-left:15px;
     font-size:15px;
 }
-
 li {
     font-weight:bold;
+}
+p {
+    font-size:14px;
 }
 div.contact {
     position:absolute;
