@@ -1,0 +1,36 @@
+// STRUCTURAL LAYOUT
+// -----------------
+
+body, html {
+  width:100%;
+}
+
+body {
+  position:relative;
+  margin: 0;
+  font-family: @baseFontFamily;
+  font-size: @baseFontSize;
+  line-height: @baseLineHeight;
+  text-shadow: 0px 1px rgba(255,255,255,0.6);
+  color: @textColor;
+  background: @grayLighter url(../../img/bg.jpg) repeat;
+}
+
+// Default column systems.
+// All columns have a "padding" of 20px.
+// We use an interior element to get pixel padding on a percentage container
+.container {
+  width:100%;
+  border-top:1px solid rgba(0,0,0,0.1);
+  border-bottom:1px solid rgba(255,255,255,0.7);
+  background:rgba(128,128,128,0.1);
+  padding: @gutter 0;
+
+  :last-child {
+    margin-bottom:0;
+  }
+}
+
+.padding-bottom {
+  padding-bottom:@gutter;
+}
