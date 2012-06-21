@@ -29,9 +29,9 @@ h2.inline-header {
      -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 
-  -webkit-border-radius: 5px 5px 5px 5px;
-     -moz-border-radius: 5px 5px 5px 5px;
-          border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+     -moz-border-radius: 10px 10px 10px 10px;
+          border-radius: 10px 10px 10px 10px;
 }
 
 
@@ -78,6 +78,11 @@ h2.inline-header {
 .skill {
   padding: .2em .5em;
   background: #ddd;
+}
+
+.skill:hover {
+  background: #08C;
+  color: #fff;
 }
 
 .interest {
