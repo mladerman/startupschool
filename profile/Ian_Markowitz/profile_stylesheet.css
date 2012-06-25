@@ -4,12 +4,13 @@ body, html {
 }
 
 h1 {
-  font-weight: normal;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 h2 {
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 14px;
+  line-height: 17px;
 }
 
 h2.inline-header {
@@ -29,9 +30,9 @@ h2.inline-header {
      -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 
-  -webkit-border-radius: 5px 5px 5px 5px;
-     -moz-border-radius: 5px 5px 5px 5px;
-          border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+          border-radius: 50px;
 }
 
 .profile-container:before,
@@ -60,7 +61,7 @@ h2.inline-header {
 .content-header {
   background: #387A94;
   color: white;
-  padding: 5px 15px;
+  padding: 2.5px 10px;
   border-bottom: 2px solid #aaa;
 }
 
@@ -71,10 +72,20 @@ h2.inline-header {
 
 .skill {
   padding: .2em .5em;
-  background: #ddd;
+  color: white;
+  font-weight: bold;
+  background: #387A94;
+  border-radius:6px;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
 }
 
 .interest {
   padding: .2em .5em;
-  background: #ddd;
+  color: white;
+  font-weight: bold;
+  background: #387A94;
+  border-radius:6px;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
 }

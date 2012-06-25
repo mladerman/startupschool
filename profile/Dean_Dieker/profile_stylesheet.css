@@ -78,3 +78,50 @@ h2.inline-header {
   padding: .2em .5em;
   background: #ddd;
 }
+
+.gallerycontainer{
+position: relative;
+/*Add a height attribute and set to largest image's height to prevent overlaying*/
+}
+
+.thumbnail img{
+border: 1px solid white;
+margin: 0 5px 5px 0;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+}
+
+.thumbnail:hover img{
+border: 1px solid blue;
+}
+
+.thumbnail{
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: lightyellow;
+padding: 2px;
+left: -1000px;
+border: 1px dashed gray;
+visibility: hidden;
+color: black;
+width: 206px;
+text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding-right: 2px;
+width: 200px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image*/
+visibility: visible;
+top: 0;
+position:center; /*position where enlarged image should offset horizontally */
+z-index: 50;
+}
+
