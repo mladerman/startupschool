@@ -1,0 +1,123 @@
+.container {
+  margin-top: 40px;
+}
+#logo {
+  height: 90px;
+}
+.bar {
+  background: black;
+  height: 50px;
+}
+#profile_image {
+  width: 360px;
+  box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.45);
+}
+#track_icon { }
+.icon {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+.span8 h1 {
+  font-size: 60px;
+}
+.bar_cover {
+  margin: 30px 0 0 -10px;
+  float: left;
+  overflow: hidden;
+  width: 360px;
+  border-top-right-radius: 25px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.45);
+}
+.bar {
+  padding: 0 0 0 10px;
+  height: 30px;
+  font-size: 22px;
+  color: #ffffff;
+  background: #3BA4DB;
+  width: 692px;
+  text-shadow: 0 0 0;
+  padding-top: 10px;
+}
+#dev_icon {
+  background: url(images/icon_dev.png) no-repeat;
+  background-size: 100px;
+  width: 100px;
+  height: 100px;
+  border: none;
+  
+}
+.span16 {
+  width: 1000px;
+}
+.centralbar {
+  background-color: #3BA4DB;
+  height: 30px;
+  border-radius: 25px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.45);
+  margin-bottom: 10px;
+}
+.row {
+  margin-bottom: 75px;
+}
+#skills span {
+  overflow:hidden;
+  background:#3BA4DB;
+  border:1px solid #a8abad;
+  border-top-color:#cbcdce;
+  border-left-color:#cbcdce;
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  color:white;
+  text-decoration:none;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  padding:1px 4px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+#fl {
+  margin-top: 10px;
+}
+#interests span {
+  overflow:hidden;
+  background:#3BA4DB;
+  border:1px solid #a8abad;
+  border-top-color:#cbcdce;
+  border-left-color:#cbcdce;
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  color:white;
+  text-decoration:none;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  padding:2px 4px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.bottom_container {
+  font-size: 16px;
+}
+#profile_background {
+  float: left;
+}
+.social_footprint {
+  float: right;
+  margin-right: 200px;
+font-size:20px;
+p.big {line-height:200%}
+}
+
+
+.mypics{
+	float: left;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+body {background-image:url('hexellence.png');}
+
+#footer{ clear:both; height:200px;
