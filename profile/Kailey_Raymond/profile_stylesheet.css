@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 19px;
 }
 
@@ -18,7 +18,7 @@ h2.inline-header {
 }
 
 .profile-container {
-  width: 800px;
+  width: 950px;
   background: #f3f3f3;
 
   margin-top: 10%;
@@ -51,7 +51,7 @@ h2.inline-header {
 }
 .avatar {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .content-container {
@@ -71,11 +71,11 @@ h2.inline-header {
 }
 
 .skill {
-  padding: .2em .5em;
+  padding: .01em .5em;
   background: #ddd;
 }
 
 .interest {
-  padding: .2em .5em;
+  padding: .01em .5em;
   background: #ddd;
 }
