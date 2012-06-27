@@ -1,6 +1,11 @@
-body, html {
+body {
   min-height: 100%;
-  background: url(images/background_texture.png);
+  background: url(images/background.gif);
+
+}
+
+html {
+min-height: 100%;
 }
 
 h1 {
@@ -46,7 +51,7 @@ h2.inline-header {
 
 .avatar-container {
   float: left;
-  width: 33%;
+  width: 25%;
 }
 .avatar {
   width: 100%;
