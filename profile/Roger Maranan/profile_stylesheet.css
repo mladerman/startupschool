@@ -20,7 +20,7 @@ h2.inline-header {
   width: 800px;
   background: #f3f3f3;
 
-  margin-top: 10%;
+  margin-top: 3%;
   margin-right: auto;
   margin-bottom: 0;
   margin-left: auto;
@@ -77,4 +77,14 @@ h2.inline-header {
 .interest {
   padding: .2em .5em;
   background: #ddd;
+}
+.BTitle {
+
+  width:700px; 
+  length:auto;
+  margin-top:5%;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: 200px;
+
 }
