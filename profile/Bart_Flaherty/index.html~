@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bart Flaherty</title>
+
+  <!-- Everyone can use Bootstrap Styles http://twitter.github.com/bootstrap/ -->
+  <link rel="stylesheet" href="../../assets/stylesheets/bootstrap.css">
+
+  <link rel="stylesheet" href="profile_stylesheet.css">
+  <script src="profile_javascript.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <img src="images/profile_pic.jpg" />
+      <h1>Bart Flaherty</h1>
+    </div>
+    <div class="content">
+    <div class="bio">
+      <ul class="unstyled">
+	<li>Java</li>
+	<li>jQuery</li>
+	<li>Wordpress</li>
+	<li>LAMP</li>
+      </ul>
+      <ul class="unstyled">
+	<li>Funk</li>
+	<li>Cooking</li>
+	<li>Debate</li>
+      </ul>
+
+      <p>here is some info about me Lorem Ipsum yada yadahere is some info about me Lorem Ipsum yada yadahere is some info about me Lorem Ipsum yada yadahere is some info about me Lorem Ipsum yada yada</p>
+    </div>
+    <div class="contact">
+    </div>
+    </div> <!-- content -->
+    </div> <!-- wrapper -->
+</body>
+</html>
+
