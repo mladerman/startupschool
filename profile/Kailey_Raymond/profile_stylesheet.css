@@ -1,14 +1,15 @@
 body, html {
   min-height: 100%;
-  background: url(images/background_texture.png);
+  background: url(images/kray_background.png);
 }
 
 h1 {
-  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 19px;
 }
 
@@ -17,7 +18,7 @@ h2.inline-header {
 }
 
 .profile-container {
-  width: 800px;
+  width: 950px;
   background: #f3f3f3;
 
   margin-top: 10%;
@@ -50,7 +51,7 @@ h2.inline-header {
 }
 .avatar {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .content-container {
@@ -58,7 +59,7 @@ h2.inline-header {
   width: 67%;
 }
 .content-header {
-  background: #444;
+  background: #47D;
   color: #f0f0f0;
   padding: 5px 15px;
   border-bottom: 2px solid #aaa;
@@ -67,14 +68,24 @@ h2.inline-header {
 .content-section {
   margin-left: 15px;
   margin-top: 10px;
+  padding:0;
 }
 
 .skill {
-  padding: .2em .5em;
+  padding: .01em .5em;
   background: #ddd;
 }
 
 .interest {
-  padding: .2em .5em;
+  padding: .01em .5em;
   background: #ddd;
+}
+
+#center {
+font-size: 125%;
+font-weight: bold;
+margin-left: 0px;
+
+
+
 }
