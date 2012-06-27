@@ -1,0 +1,138 @@
+.container {
+    margin-top: 50px;
+}
+.body,
+html {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    background: #ffffff;
+}
+#wrap {
+    width: 750px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+#header {
+    margin: 10px 10px 10px 0;
+    padding: 5px 10px;
+    background: #ffffff;
+}
+#h1 {
+    margin: 0;
+}
+#h2 {
+    margin: 0 0 1em;
+}
+#logo {
+  height: 100px;
+}
+#logo2 {
+  height: 75px;
+  margin: -30px 0 0 0;
+}
+#nav {
+    padding: 5px 10px;
+    background: #ffffff;
+}
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#nav li {
+    display: inline;
+    margin: 20px;
+    padding 0px;
+}
+#main {
+    float: left;
+    width: 270px;
+    padding: 10px;
+    background: #ffffff;
+}
+.bar_cover {
+  margin: 0  0 0 0;
+  padding: 0 0 0 10px;
+  float: left;
+  overflow: hidden;
+  color: #ffffff;
+  background: #3BA4DB;
+  width: 240px;
+  border-top-right-radius: 25px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.45);
+}
+#profile_image {
+  width: 250px;
+  box-shadow: 3px 0px 8px rgba(0, 0, 0, 0.45);
+}
+.bar {
+  padding: 0 0 0 10;
+  height: 30px;
+  font-size: 20px;
+  color: #ffffff;
+  background: #3BA4DB;
+  width: 692px;
+  text-shadow: 0 0 0;
+  padding-top: 10px;
+}
+.bar_lower {
+  margin: 0 0 10px 0;
+  padding: 0 0 0 10px;
+  float: left;
+  overflow: hidden;
+  color: #ffffff;
+  background: #3BA4DB;
+  width: 240px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.45);
+}
+#sidebar {
+    float: right;
+    width: 430px;
+    font-size: 20px;
+    margin: 50px 0 0 0;
+    padding: 10px;
+    background: #ffffff;
+}
+#skills span {
+  overflow:hidden;
+  background:#3BA4DB;
+  border:1px solid #a8abad;
+  border-top-color:#cbcdce;
+  border-left-color:#cbcdce;
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  color:white;
+  text-decoration:none;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  padding:1px 4px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+#skills ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#dev_icon {
+  margin: 0 0 0 0;
+  background: url(images/icon_dev.png) no-repeat;
+  background-size: 75px;
+  width: 100px;
+  height: 100px;
+  border: none;
+}
+#social_icon {
+    margin: 0 0 0 0;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+#footer {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    clear: both;
+    background: #ffffff;
