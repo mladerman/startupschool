@@ -1,0 +1,96 @@
+body {
+  min-height: 100%;
+  background: url(images/fireflies.jpg);
+  }
+  /* Background credit: Andromeda Galaxy Double-Nucleus, Painting by Adolf Schaller based on Hubble Space Telescope  observations by Tod Lauer, et al.*/
+
+  html {
+  min-height: 100%;}
+  ;
+  
+h1 h1 {
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 16px;
+  font-family: Lucida Sans Unicode
+  line-height: 20px;
+  text-shadow: 0px 0px 3px rgba(255, 165, 0, 1);
+}
+
+h2.inline-header {
+  display: inline-block;
+}
+.profile-container {
+  width: 800px;
+  background: #f3f3f3;
+
+  margin-top: 10%;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+
+	-webkit-box-shadow: 0px 0px 24px rgba(179, 223, 16, 0.44);
+	-moz-box-shadow:    0px 0px 24px rgba(179, 223, 16, 0.44);
+		box-shadow:     0px 0px 24px rgba(179, 223, 16, 0.44);
+
+	-webkit-border-radius: 	42px;
+	-moz-border-radius: 	42px;
+		border-radius: 		42px;
+}
+
+.profile-container:before,
+.profile-container:after {
+  display: table;
+  content: "";
+}
+.profile-container:after {
+  clear: both;
+}
+
+
+.avatar-container {
+  float: left;
+  width: 33%;
+}
+.avatar {
+  width: 100%;
+  height: auto;
+  margin-top:18%;
+  
+  -webk
+  
+  
+  
+  
+  ++++++it-border-radius: 	42px;
+	-moz-border-radius: 	42px;
+		border-radius: 		42px;
+}
+
+.content-container {
+  float: left;
+  width: 67%;
+}
+.content-header {
+  background: #444;
+  color: #f0f0f0;
+  padding: 5px 15px;
+  border-bottom: 2px solid #aaa;
+}
+
+.content-section {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.skill {
+  padding: .2em .5em;
+  background: #ddd;
+}
+
+.interest {
+  padding: .2em .5em;
+  background: #ddd;
+}
