@@ -1,22 +1,78 @@
+/**Typography**/
+
 body, html {
   min-height: 100%;
   background: url(images/background_texture.png);
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 15px
+}
+
+.contact{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 12px
+}
+
+#sub-head{
+  position: relative;
+  top: -30px;
+  color: #CC0000;
+  font-size: 12x;
+}
+
+p#bio{
+  font-family: 'Times New Roman', serif;
+  padding-right: 25px;
+  font-size: 16px;
+  text-align: justify;
 }
 
 h1 {
-  font-family: 'Shadows Into Light', cursive;
-  font-weight: normal;
-  font-size: 50px
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: .03em;
+  color: #ededed;
 }
 
 h2 {
-  font-size: 16px;
-  line-height: 19px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 18px
 }
 
 h2.inline-header {
   display: inline-block;
 }
+
+#phone:hover{
+  color: #ff0000;
+  text-decoration: overline underline;
+}
+
+/** Link Styles**/
+a:link {
+  color: #000000;
+  text-decoration: underline;
+  }
+
+a:active {
+  color: #0000ff;
+  text-decoration: underline;
+  }
+
+/**a:visited {
+  color: #008000;
+  text-decoration: underline;
+  }**/
+
+a:hover {
+  color: #CC0000;
+  text-decoration: overline underline;
+  }
+
+/** Layout**/
 
 .profile-container {
   width: 800px;
@@ -31,9 +87,9 @@ h2.inline-header {
      -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 
-  -webkit-border-radius: 5px 5px 5px 5px;
-     -moz-border-radius: 5px 5px 5px 5px;
-          border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+     -moz-border-radius: 8px 8px 8px 8px;
+          border-radius: 8px 8px 8px 8px;
 }
 
 .profile-container:before,
@@ -52,18 +108,22 @@ h2.inline-header {
 }
 .avatar {
   width: 100%;
+  padding: 27px 0px 0px 0px;
   height: auto;
 }
 
 .content-container {
   float: left;
   width: 67%;
+  hight: auto;
 }
 .content-header {
-  background: #444;
+  background: #848484;
   color: #f0f0f0;
-  padding: 5px 15px;
-  border-bottom: 2px solid #aaa;
+  padding: 0px 15px;
+  height: auto;
+
+  /**border-bottom: 2px solid #aaa;**/
 }
 
 .content-section {
@@ -72,11 +132,26 @@ h2.inline-header {
 }
 
 .skill {
-  padding: .2em .5em;
+  padding: .0em .4em;
   background: #ddd;
+   line-height: 200%;
+}
+
+.skill:hover {
+  background: #CC0000;
+  color: #fff;
+  line-height: 200%;
 }
 
 .interest {
-  padding: .2em .5em;
+  padding: .0em .4em;
   background: #ddd;
+  line-height: 200%;
+}
+
+.interest:hover {
+  padding: .0em .4em;
+  background: #CC0000;
+  color: #fff;
+  line-height: 200%;
 }
