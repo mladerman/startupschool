@@ -15,10 +15,10 @@ body, html {
 }
 
 #sub-head{
-  /**position: relative;**/
-  /***top: -30px;**/
+  position: relative;
+  top: -30px;
   color: #CC0000;
-  font-size: 12x;
+  font-size: 11px;
 }
 
 p#bio{
@@ -34,6 +34,7 @@ h1 {
   font-size: 40px;
   letter-spacing: .03em;
   color: #ededed;
+  margin: 18px 0px;
 }
 
 h2 {
