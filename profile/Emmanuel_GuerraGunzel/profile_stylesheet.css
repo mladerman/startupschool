@@ -16,7 +16,7 @@ body, html {
 
 #sub-head{
   position: relative;
-  top: -30px;
+  /***top: -30px;**/
   color: #CC0000;
   font-size: 12x;
 }
