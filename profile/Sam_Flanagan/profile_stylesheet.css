@@ -1,10 +1,17 @@
+
+
 body, html {
   min-height: 100%;
-  background: url(images/background_tiles.png);
+  background: #9CB4E6;
+  background-repeat: no-repeat;
+
+
 }
 
 h1 {
   font-weight: normal;
+  font-family: impact;
+  color: #000033;
 }
 
 h2 {
@@ -18,7 +25,10 @@ h2.inline-header {
 
 .profile-container {
   width: 800px;
-  background: #f3f3f3;
+  background: #ffffff;
+  border: #000033;
+
+
 
   margin-top: 10%;
   margin-right: auto;
@@ -47,9 +57,11 @@ h2.inline-header {
 .avatar-container {
   float: left;
   width: 33%;
+  padding: 0px;
+  margin-top: 30px
 }
 .avatar {
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
@@ -58,31 +70,28 @@ h2.inline-header {
   width: 67%;
 }
 .content-header {
-  background: #444;
+  background: #ffffff;
+ 
+;
   color: #f0f0f0;
-  padding: 1px 15px;
+  padding: 5px 15px;
   border-bottom: 2px solid #aaa;
 }
 
 .content-section {
   margin-left: 15px;
   margin-top: 10px;
+  color: #000033;
+  font-family: tahoma;
 }
 
 .skill {
   padding: .2em .5em;
   background: #ddd;
-}
-
-.skill:hover {
-  background:#ccc;
+  color: #000033;	
 }
 
 .interest {
   padding: .2em .5em;
   background: #ddd;
-}
-
-.interest:hover {
-  background: #ccc;
 }

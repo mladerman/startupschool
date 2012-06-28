@@ -1,28 +1,36 @@
 body, html {
   min-height: 100%;
-  background: url(images/background_tiles.png);
+  background: url(images/backg.png);
 }
 
 h1 {
-  font-weight: normal;
+font-family: arial;
+  font-weight: bold;
+  line-height: 6px;
+  
 }
 
 h2 {
+	font-family:arial;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 10px;
 }
 
 h2.inline-header {
-  display: inline-block;
+  display: inline;
+  line-height: 25px;
 }
 
 .profile-container {
+	font-family: arial;
+	font-weight: lighter;
+	font-size:13px;
   width: 800px;
   background: #f3f3f3;
-
+  
   margin-top: 10%;
   margin-right: auto;
-  margin-bottom: 0;
+  margin-bottom: 120px;
   margin-left: auto;
 
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -49,8 +57,14 @@ h2.inline-header {
   width: 33%;
 }
 .avatar {
-  width: 100%;
+  width: 90%;
   height: auto;
+  /*border: 10px solid #ffffff;*/
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14px;
+    margin-bottom: 14px;
 }
 
 .content-container {
@@ -58,31 +72,28 @@ h2.inline-header {
   width: 67%;
 }
 .content-header {
-  background: #444;
-  color: #f0f0f0;
-  padding: 1px 15px;
-  border-bottom: 2px solid #aaa;
+  background: #437AF9;
+  color: #ffffff;
+  padding: 5px 15px;
+
 }
 
 .content-section {
-  margin-left: 15px;
-  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 18px;
+  text-align: justify;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  
 }
 
 .skill {
-  padding: .2em .5em;
-  background: #ddd;
-}
-
-.skill:hover {
-  background:#ccc;
+  padding: 2px 2px 2px 2px;
+  background: #C0C0C0;
 }
 
 .interest {
-  padding: .2em .5em;
-  background: #ddd;
+  padding: 2px 2px 2px 2px;
+  background: #C0C0C0;
 }
 
-.interest:hover {
-  background: #ccc;
-}
