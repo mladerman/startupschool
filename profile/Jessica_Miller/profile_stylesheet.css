@@ -1,0 +1,141 @@
+body{
+min-height: 200%; 
+background: url(images/wallpaper-994218.jpg);
+background-size: cover;  
+}
+
+h1.content-header {
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+}
+
+h2.inline-header {
+  font-size: 16px;
+  line-height: 9px;
+  font-family: Helvetica, sans-serif;
+  color: #262523;
+}
+
+h2.inline-header {
+  display: inline-block;
+}
+
+h3.normal-text{
+  font-family: Futura, medium, sans-serif;
+  font-size: 14px;
+  color: #262523;
+
+}
+
+.profile-container {
+  float: none;
+  width: 800px;
+  background: #E1C8B6;
+
+  margin-top: 10%;
+  margin-right: auto;
+  margin-bottom: 10%;
+  margin-left: auto;
+
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+
+  -webkit-border-radius: 5px 5px 5px 5px;
+     -moz-border-radius: 5px 5px 5px 5px;
+          border-radius: 5px 5px 5px 5px;
+}
+
+.profile-container:before,
+.profile-container:after {
+  float: center;
+  display: table;
+  content: "";
+}
+.profile-container:after {
+  clear: both;
+}
+
+.avatar-container {
+  float: left;
+  width: 33%;
+}
+.avatar {
+  url: "images/IMG_1885 copy.JPG";
+  width: 100%;
+  height: auto;
+
+}
+
+img.icon {
+  url: "images/icon-design.png";
+  width: 125px;
+  height:125px;
+  float: bottom-left;
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+  filter:alpha(opacity=5);
+  padding: 0px 0px 0px 60px;
+  margin: 30px 30px 20px 10px;
+}
+
+img.icon-email {
+  url: "images/iconmonstr-email-12-icon.png";
+  width: 50px;
+  height:50px;
+  float: bottom;
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+  filter:alpha(opacity=5);
+  padding: 0px 30px 0px 30px;
+  margin: 0px 0px 0px 0px;
+
+}
+img.icon-linkedin {
+  url: "images/iconmonstr-linkedin-3-icon.png";
+  width: 50px;
+  height:50px;
+  float: bottom;
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+  filter:alpha(opacity=5);
+  padding: 0px 40px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+img.icon-twitter {
+  url: "images/iconmonstr-twitter-3-icon.png";
+  width: 50px;
+  height:50px;
+  float: bottom;
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+  filter:alpha(opacity=5);
+  padding: 0px 30px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+.content-container {
+  float: left;
+  width: 67%;
+}
+.content-header {
+  background: #72B5B8;
+  color: #E1C8B6;
+  padding: 5px 15px;
+}
+
+.content-section {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.skill {
+  padding: .2em .6em;
+  background: #72B5B8;
+}
+
+.interest {
+  padding: .2em .6em;
+  background: #72B5B8;
+}
+
+}
