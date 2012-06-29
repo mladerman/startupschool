@@ -1,0 +1,382 @@
+
+<!doctype html>
+<html lang="en-US">
+<head>
+  <title>JP Bonner</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="CzKJ92WKOVuqRAZUA7ts7zWfmgn9OjHodMObcwcPNGY=" name="csrf-token" />
+<link href="style.css?body=1" media="screen" rel="stylesheet" type="text/css" />
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,900' rel='stylesheet' type='text/css' />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      //    alert("Ghetto Accordion is listening.");
+
+      function visibleSwitch(resultID) {
+/* Take element id, toggle that element 
+    alert("visibleSwitch has been called, and it has recieved "+resultID); */
+    
+    $('div.content#' + resultID).toggleClass('visibility');
+}
+
+function clickParse(itemID) {
+/* Take element id, output the id of element to toggle 
+    alert("clickParse has been called, and it has received "+itemID); */
+    
+    var resultID;
+    switch (itemID) {
+    case 'codebutton':
+        resultID = 'code';
+        break;
+    case 'designbutton':
+        resultID = 'design';
+        break;
+    case 'hustlebutton':
+        resultID = 'hustle';
+        break;
+    case 'writingbutton':
+        resultID = 'writing';
+        break;
+    case 'salesbutton':
+        resultID = 'sales';
+        break;
+    case 'financebutton':
+        resultID = 'finance';
+        break;
+    }
+/*
+    alert("clickParse has determined the resultID to be "+resultID);
+    */
+    visibleSwitch(resultID);
+}
+
+$('a.button').click(function clickIdentify(e) {
+/* Take element that has been clicked, output its id 
+    alert("A button has been clicked, and it is "+$(this).attr('id')); */
+    
+    clickParse($(this).attr('id'));
+    e.preventDefault();
+});
+
+    });
+    </script>
+</head>
+
+<body class="posts index">
+  <header>
+    <a href="http://j4p3.com"><div id="logo"></div></a>
+    <h1><a href="http://j4p3.com">JP Bonner</a></h1>
+    <span>Unqualified.</span>
+    <ul>
+        <li><a href="http://about.me/jp">about</a></li>
+        <li><a href="http://twitter.com/bonneroo">@bonneroo</a></li>
+        <li><a href="http://j4p3.com/hire">hire</a></li>
+        <li><a href="https://github.com/bonnerjp">github</a></li>
+        <li><a href="mailto:bonnerjp@gmail.com?subject:whats up!">say hi</a></li>
+      <li><a href="http://blag.j4p3.com/posts.rss">rss feed</a></li>
+    </ul>
+    <span class="powered-by">
+      Powered by <a href="http://github.com/natew/obtvse.git">Obtvse</a>
+      
+  </span>
+
+  </header>
+<div id="container">
+    <div class="shell" id="explanation">
+      <a href=""><h2>Profile</h2></a>
+      <strong>I'm looking for a team that is: </strong>
+      <ul>
+      <li>attacking a difficult, real-world problem with an ambitious solution</li>
+      <li>small</li>
+    </ul>
+    <strong>So far, I can do these things:</strong>
+    </div>
+    <div class="shell" id="code">
+        <div class="leftshell">
+            <div class="skill">
+                <a class="button black" id="codebutton">
+                  <div class="arrow">
+                    <span class="top"></span>
+                    <span class="bottom"></span>
+                    <span class="bottomShadow"></span>
+                  </div>
+                  code
+                </a>
+            </div>
+        </div>
+        <div class="rightshell">
+            <div class="bar">
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+            </div>
+            <div class="scale">
+              <span class="left"><a href="http://catb.org/jargon/html/P/PHB.html">0: PHB</a></span>
+              <span class="right"><a href="http://woz.org/">10: Woz</a></span>
+            </div>
+            <div class="content visibility" id="code">
+                <div class="item">
+                    <a href=""><div class="thumb" id="code1"></div></a>
+                    <div class="blurb">
+                        <a href=""><h2>Rails</h2></a><p>This site was my Rails learning project.</p>
+                    </div>
+                </div>
+                <div class="item">
+                     <a href=""><div class="thumb" id="code2"></div></a>
+                    <div class="blurb">
+                         <a href=""><h2>QA/Testing</h2></a><p>I wrote Selenium scripts for about.me's development environment before it sold to AOL.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href=""><div class="thumb" id="code3"></div></a>
+                    <div class="blurb">
+                         <a href=""><h2>PHP/PostgreSQL</h2></a><p>I built a movie-rental app for my university in PHP.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="shell" id="writing">
+        <div class="leftshell">
+            <div class="skill">
+                <a class="button black" id="writingbutton">
+                  <div class="arrow">
+                    <span class="top"></span>
+                    <span class="bottom"></span>
+                    <span class="bottomShadow"></span>
+                  </div>
+                  write
+                </a>
+            </div>
+        </div>
+        <div class="rightshell">
+            <div class="bar">
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+            </div>
+            <div class="scale">
+              <span class="left"><a href="http://www.snopes.com/fraud/advancefee/nigeria.asp">0: Fake Nigerian Prince</a></span>
+              <span class="right"><a href="http://online.wsj.com/article/SB122178211966454607.html">10: DFW</a></span>
+            </div>
+            <div class="content visibility" id="writing">
+                <div class="item">
+                    <a href="http://bostinno.com/channels/the-unstoppable-lean-startup-machine-2/"><div class="thumb" id="writing1"></div></a>
+                    <div class="blurb">
+                           <a href="http://bostinno.com/channels/the-unstoppable-lean-startup-machine-2/"><h2>Hype</h2></a><p>I was so grateful to the Lean Startup Machine crew that I had to help them get the word out in BostInno.</p>
+                    </div>
+                </div>
+                <div class="item">
+                   <a href="http://www.thebcobserver.com/2009/10/27/union-struggle-goes-into-overtime/"><div class="thumb" id="writing2"></div></a>
+                    <div class="blurb">
+                        <a href="http://www.thebcobserver.com/2009/10/27/union-struggle-goes-into-overtime/"><h2>Journalism</h2></a><p>At university, I broke a story on a union negotiation that might have shut down the entire campus.</p>
+                    </div>
+                </div>
+                <div class="item">
+                   <a href="http://www.trueventurestec.com/2010/07/01/out-of-africa/"><div class="thumb" id="writing3"></div></a>
+                    <div class="blurb">
+                        <a href="http://www.trueventurestec.com/2010/07/01/out-of-africa/"><h2>Community Blogging</h2></a><p>While at True Ventures, I was reponsible for maintaining an interesting blog to attract potential applicants.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="shell" id="design">
+        <div class="leftshell">
+            <div class="skill">
+                <a class="button black" id="designbutton">
+                  <div class="arrow">
+                    <span class="top"></span>
+                    <span class="bottom"></span>
+                    <span class="bottomShadow"></span>
+                  </div>
+                  design
+                </a>
+            </div>
+        </div>
+        <div class="rightshell">
+            <div class="bar">
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+            </div>
+            <div class="scale">
+              <span class="left"><a href="http://zombo.com/">0: Zombocom</a></span>
+              <span class="right"><a href="http://en.wikipedia.org/wiki/Enzo_Ferrari">10: Enzo Ferrari</a></span>
+            </div>
+            <div class="content visibility" id="design">
+                <div class="item">
+                    <a href="https://dl.dropbox.com/u/27634/j4p3/ugbc_quidditch.png"><div class="thumb" id="design1"></div></a>
+                    <div class="blurb">
+                        <a href="https://dl.dropbox.com/u/27634/j4p3/ugbc_quidditch.png"><h2>Design & Copy</h2></a><p>I was a print designer for my university's student government. The Quidditch Tournament had marketing problems because students stole all the flyers I designed to repurpose as dorm decorations.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="https://dl.dropbox.com/u/27634/j4p3/recruiting_piqc.pdf"><div class="thumb" id="design2"></div></a>
+                    <div class="blurb">
+                        <a href="https://dl.dropbox.com/u/27634/j4p3/recruiting_piqc.pdf"><h2>Promotions</h2></a><p>I recruited a sales team for a new startup with some community outreach and this poster.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="shell" id="hustle">
+        <div class="leftshell">
+            <div class="skill">
+                <a class="button black" id="hustlebutton">
+                  <div class="arrow">
+                    <span class="top"></span>
+                    <span class="bottom"></span>
+                    <span class="bottomShadow"></span>
+                  </div>
+                  hustle
+                </a>
+            </div>
+        </div>
+        <div class="rightshell">
+            <div class="bar" id="hustle">
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+            </div>
+            <div class="scale">
+              <span class="left"><a href="http://www.youtube.com/watch?v=ndMKTnSRsKM">0: Three-Toed Sloth</a></span>
+              <span class="right"><a href="http://www.youtube.com/watch?v=XuzpsO4ErOQ">10: 11</a></span>
+            </div>
+            <div class="content visibility" id="hustle">
+                <div class="item">
+                    <a href="https://dl.dropbox.com/u/27634/j4p3/marathon.jpeg"><div class="thumb" id="hustle1"></div></a>
+                    <div class="blurb">
+                        <a href="https://dl.dropbox.com/u/27634/j4p3/marathon.jpeg"><h2>Marathon</h2></a><p>People love marathons because they force you to be completely present - also called "flow", "the zone", and "oh god why am I doing this to myself?"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="shell" id="sales">
+        <div class="leftshell">
+            <div class="skill">
+                <a class="button black" id="salesbutton">
+                  <div class="arrow">
+                    <span class="top"></span>
+                    <span class="bottom"></span>
+                    <span class="bottomShadow"></span>
+                  </div>
+                  sell
+                </a>
+            </div>
+        </div>
+        <div class="rightshell">
+            <div class="bar">
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+            </div>
+            <div class="scale">
+              <span class="left"><a href="https://dl.dropbox.com/u/27634/willy_loman.jpg">0: Willy Loman</a></span>
+              <span class="right"><a href="http://www.vanityfair.com/culture/features/2006/05/grafter200605">10: Joe Ades</a></span>
+            </div>
+            <div class="content visibility" id="sales">
+                <div class="item">
+                     <a href="https://dl.dropbox.com/u/27634/j4p3/LocalOn_Sales_Kit_v.01.30.2011.pdf"><div class="thumb" id="sales1"></div></a>
+                    <div class="blurb">
+                         <a href="https://dl.dropbox.com/u/27634/j4p3/LocalOn_Sales_Kit_v.01.30.2011.pdf"><h2>Strategy</h2></a><p>In the early days of <a href="http://localon.com">LocalOn,</a> I was responsible for hiring and training a ten-person sales team.</p>
+                    </div>
+                </div>
+                <div class="item">
+                     <a href="http://www.youtube.com/watch?v=Bi1MemQ8MqY&t=3m14s"><div class="thumb" id="sales2"></div></a>
+                    <div class="blurb">
+                        <a href="http://www.youtube.com/watch?v=Bi1MemQ8MqY&t=3m14s"><h2>Execution</h2></a><p>ABC. A: Always, B: Be, C: Closing. Always be closing. Always Be Closing. You want coffee? That coffee's for closers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="shell" id="finance">
+        <div class="leftshell">
+            <div class="skill">
+                <a class="button black" id="financebutton">
+                  <div class="arrow">
+                    <span class="top"></span>
+                    <span class="bottom"></span>
+                    <span class="bottomShadow"></span>
+                  </div>
+                  finance
+                </a>
+            </div>
+        </div>
+        <div class="rightshell">
+            <div class="bar">
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+            </div>
+            <div class="scale">
+              <span class="left"><a href="https://www.google.com/search?q=greece">0: Greece</a></span>
+              <span class="right"><a href="">10: Wall Street Analyst</a></span>
+            </div>
+            <div class="content visibility" id="finance">
+                <div class="item">
+                    <a href="https://dl.dropbox.com/u/27634/j4p3/BONNER_THESIS_MICROFINANCE.pdf"><div class="thumb" id="finance1"></div></a>
+                    <div class="blurb">
+                        <a href="https://dl.dropbox.com/u/27634/j4p3/BONNER_THESIS_MICROFINANCE.pdf"><h2>Microfinance</h2></a><p>The silver bullet against poverty? Not exactly, but it's the best we've got. My thesis attempted to determine whether technology is a worthwhile investment for a microfinance institution.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="https://dl.dropbox.com/u/27634/j4p3/finance.png"><div class="thumb" id="finance2"></div></a>
+                    <div class="blurb">
+                         <a href="https://dl.dropbox.com/u/27634/j4p3/finance.png"><h2>Wizardry</h2></a><p>As a Finance major, I learned enough obsessively intricate Excel/Stata tricks to analyze anything.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+    </div>
+  </div>
+
+    <!-- Google Analytics -->
+    <script>
+      var _gaq=[['_setAccount','UA-32890161-1'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+</body>
+</html>
+3
