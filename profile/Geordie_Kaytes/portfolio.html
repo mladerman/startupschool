@@ -15,19 +15,20 @@
 	
 	var imageLib = {
 		1: {filename:"lifeproof-redesign.jpg", comment:"Unsolicited reboot (mockup) of LifeProof website to practice emotional design techniques"},
-		2: {filename:"lonely-boat.jpg", comment:"Lonely Boat - oil on canvas - 18x24"},
-		3: {filename:"tuck-sleeping.jpg", comment:"Lights Out - charcoal on paper - 9x12"},
-		4: {filename:"shelburne.jpg", comment:"Champlain at Shelburne - oil on canvas panel - 4x6"},
-		5: {filename:"mass-transit.jpg", comment:"Mass Transit - oil on canvas - 18x24"},
-		6: {filename:"eliot-bridge.jpg", comment:"Eliot Bridge - oil on canvas - 18x24"},
-		7: {filename:"austi-and-tuck.jpg", comment:"Girl with Lab - oil on canvas board - 12x18"}
+		2: {filename:"ikebana.jpg", comment: "Early concept sketch for a flower designer's portfolio website"},
+		3: {filename:"lonely-boat.jpg", comment:"Lonely Boat - oil on canvas - 18x24"},
+		4: {filename:"tuck-sleeping.jpg", comment:"Lights Out - charcoal on paper - 9x12"},
+		5: {filename:"shelburne.jpg", comment:"Champlain at Shelburne - oil on canvas panel - 4x6"},
+		6: {filename:"mass-transit.jpg", comment:"Mass Transit - oil on canvas - 18x24"},
+		7: {filename:"eliot-bridge.jpg", comment:"Eliot Bridge - oil on canvas - 18x24"},
+		8: {filename:"austi-and-tuck.jpg", comment:"Girl with Lab - oil on canvas board - 12x18"}
 	}
 	
 	load_img("portfolio/"+imageLib[1].filename, imageLib[1].comment);
 
 	$('.movenext').on("click", function(event){
 		counter += 1;
-		index = (Math.abs(counter) % 7)+1;
+		index = (Math.abs(counter) % 8)+1;
 		console.log(index)
 		console.log(counter)
 		event.preventDefault();
@@ -36,7 +37,7 @@
 	
 	$('.moveprev').on("click", function(event){
 		counter -= 1;
-		index = (Math.abs(counter) % 7)+1;
+		index = (Math.abs(counter) % 8)+1;
 		console.log(index)
 		console.log(counter)
 		event.preventDefault();
