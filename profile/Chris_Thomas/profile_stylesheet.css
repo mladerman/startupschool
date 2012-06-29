@@ -7,7 +7,8 @@ h1 {
   font-weight: normal;
 }
 
-h2 {
+h2 {  
+
   font-size: 16px;
   line-height: 19px;
 }
@@ -17,7 +18,7 @@ h2.inline-header {
 }
 
 .profile-container {
-  width: 800px;
+  width: 1100px;
   background: #f3f3f3;
 
   margin-top: 10%;
@@ -65,7 +66,7 @@ h2.inline-header {
 }
 
 .content-section {
-  margin-left: 15px;
+  margin-left: 10px;
   margin-top: 10px;
 }
 
