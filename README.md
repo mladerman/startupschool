@@ -1,3 +1,4 @@
-# Boston Startup School Landing Page
+bss_php
+=======
 
-NOTE: For the student profiles, switch branches to gh-pages
+bss redesign in php
