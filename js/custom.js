@@ -152,5 +152,5 @@ function cycleCTA()
 
 function scrolling(id)
 {
-	$("html,body").animate({scrollTop: $("#" + id).offset().top - 80}, 1000);
+	$("html,body").animate({scrollTop: $("#" + id).offset().top - 60}, 1000);
 }

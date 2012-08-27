@@ -74,7 +74,7 @@
 							<input id="foot4" type="text" class="span6" /><br>
 							<input id="foot5" type="text" class="span6" /><br>
 							<br><br>
-							<p>Please tell us: (1) why you would like to enroll in Boston Starup School, and (2) what makes you a strong candidate for admission.</p>
+							<p>Please tell us: (1) why you would like to enroll in Boston Startup School, and (2) what makes you a strong candidate for admission.</p>
 							<textarea class="span6" style="resize: vertical;" name="whybss" id="whybss" ></textarea>
 							<br><br>
 							<p>Tell us about something you created or accomplished that you are most proud of and why it wouldn't have happened without you.</p>
