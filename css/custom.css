@@ -628,44 +628,28 @@ div.trackwrap
 	background-repeat: no-repeat;
 	
 }
-#bssProductIcon:hover
-{
-	background-image: url('../_images/icons/bssIcon_product_over.png');
-	background-repeat: no-repeat;
-}
+
 
 #bssDevIcon
 {
 	background-image: url('../_images/icons/bssIcon_dev_up.png');
 	background-repeat: no-repeat;
 }
-#bssDevIcon:hover
-{
-	background-image: url('../_images/icons/bssIcon_dev_over.png');
-	background-repeat: no-repeat;
-}
+
 
 #bssMarketIcon
 {
 	background-image: url('../_images/icons/bssIcon_market_up.png');
 	background-repeat: no-repeat;
 }
-#bssMarketIcon:hover
-{
-	background-image: url('../_images/icons/bssIcon_market_over.png');
-	background-repeat: no-repeat;
-}
+
 
 #bssSalesIcon
 {
 	background-image: url('../_images/icons/bssIcon_sales_up.png');
 	background-repeat: no-repeat;
 }
-#bssSalesIcon:hover
-{
-	background-image: url('../_images/icons/bssIcon_sales_over.png');
-	background-repeat: no-repeat;
-}
+
 
 div.social
 {

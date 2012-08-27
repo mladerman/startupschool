@@ -84,7 +84,7 @@
 							<textarea  class="span6"style="resize: vertical;" name="awesomehire" id="awesomehire" onKeyDown="limitText(this.form.awesomehire,this.form.countdown2,250);" onKeyUp="limitText(this.form.awesomehire,this.form.countdown2,250);"></textarea><br>
 							<font size="1">You have <input readonly type="text" name="countdown2" size="3" value="250" style="border: 0px; background: transparent; width: 30px;"> characters left.</font>
 							<br><br>
-							<p>(<i>Optional</i> ) Is there anything else we should know about you?</p>
+							<p>(<i>Optional</i> ) Is there anything else we should know about you?  If someone referred you to our program, use this space to let us know who that was!</p>
 							<textarea  class="span6"style="resize: vertical;" name="anythingelse" id="anythingelse" onKeyDown="limitText(this.form.anythingelse,this.form.countdown3,999);" onKeyUp="limitText(this.form.anythingelse,this.form.countdown3,999);"></textarea><br>
 							<font size="1">You have <input readonly type="text" name="countdown3" size="3" value="999" style="border: 0px; background: transparent; width: 30px;"> characters left.</font>
 							<br><br>

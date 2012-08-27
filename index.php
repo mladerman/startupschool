@@ -200,7 +200,7 @@
 							<td>
 								<div class="teammember">
 									<div class="teampic">
-									<a href="who.php" target="_blank">
+									<a href="who.php">
 									<div class="animate" style="background: url('img/katie_rae.jpg') center center;"> 
 										<div><p>Katie Rae</p></div>
 									</div>
@@ -214,7 +214,7 @@
 							<td>
 								<div class="teammember">
 									<div class="teampic">
-									<a href="who.php" target="_blank">
+									<a href="who.php">
 									<div class="animate" style="background: url('img/reed_sturtevant.jpg') center center;"> 
 										<div><p>Reed Sturtevant</p></div>
 									</div>
@@ -228,7 +228,7 @@
 							<td>
 								<div class="teammember">
 									<div class="teampic">
-									<a href="who.php" target="_blank">
+									<a href="who.php">
 									<div class="animate" style="background: url('img/mark_chang.jpg') center center;"> 
 										<div><p>Mark Chang</p></div>
 									</div>
@@ -242,7 +242,7 @@
 							<td>
 								<div class="teammember">
 									<div class="teampic">
-									<a href="who.php" target="_blank">
+									<a href="who.php">
 									<div class="animate" style="background: url('img/richard_banfield.jpg') center center;"> 
 										<div><p>Richard Banfield</p></div>
 									</div>
@@ -258,7 +258,7 @@
 							<td>
 								<div class="teammember">
 									<div class="teampic">
-									<a href="who.php" target="_blank">
+									<a href="who.php">
 									<div class="animate" style="background: url('img/aaron_ohearn.jpg') center center;"> 
 										<div><p>Aaron O'Hearn</p></div>
 									</div>
@@ -272,7 +272,7 @@
 							<td>
 								<div class="teammember">
 									<div class="teampic">
-									<a href="who.php" target="_blank">
+									<a href="who.php">
 									<div class="animate" style="background: url('img/shaun_johnson.jpg') center center;"> 
 										<div><p>Shaun Johnson</p></div>
 									</div>
@@ -286,7 +286,7 @@
 							<td>
 								<div class="teammember">
 									<div class="teampic">
-									<a href="who.php" target="_blank">
+									<a href="who.php">
 									<div class="animate" style="background: url('img/john_capecelatro.jpg') center center;"> 
 										<div><p>John Capecelatro</p></div>
 									</div>
@@ -300,7 +300,7 @@
 							<td>
 								<div class="teammember">
 									<div class="teampic">
-									<a href="who.php" target="_blank">
+									<a href="who.php">
 									<div class="animate" style="background: url('img/will_eaton.png') center center;"> 
 										<div><p>Will Eaton</p></div>
 									</div>

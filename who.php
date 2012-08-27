@@ -52,17 +52,7 @@
 					</ul>
 					<div class="tab-content" style="display:inline;">
 					<div class="tab-pane active span9" id="advisors" >
-					<div class="row">
-						<img class="border offshadow" style="margin-left: 10px; width:200px;" class="pull-left" src="img/reed_sturtevant.jpg" style="margin:10px;"></img> 
-						<span class="pull-right span6">
-					<h3>Reed Sturtevant</h3>
-					<strong>Co-Founder</strong>
-					<p>Reed acts as an advisor to the BSS team, mentor to the students and graduates, and is a soft-spoken grounding force on all topics related to venture capital and where BSS students fit into startup organizations. He is a founder of Project 11 and a co-instructor with Katie Rae at MIT’s Sloan School of Management. Reed was the founding Director of Microsoft Startup Labs and before that was CTO of EONS, Inc., Managing Director and VP of Technology for Idealab (which founded several companies including Picasa and Compete), and co-founder of Radnet and RadioAMP.</p>
-
-					<p>Reed has successfully sparked an array of entrepreneurial ventures. He began his career as architect and designer of Freelance Graphics, the best selling presentation package acquired by Lotus Development. At Lotus, Reed served as a key member of the senior technical staff and launched many products including InterNotes, Lotus’ first web product. Reed is an MIT dropout and holds one patent that should probably never have been granted.</p>
-					LinkedIn: http://www.linkedin.com/in/reedsturtevant<br/>
-					Twitter: http://twitter.com/reedsturtevant</span>
-					</div><br/>
+					
 					<div class="row">
 						<img class="border offshadow" style="margin-left: 10px; width:200px;" class="pull-left" src="img/katie_rae.jpg" style="margin:10px;"></img> 
 						<span class="pull-right span6">
@@ -76,6 +66,19 @@
 					</span>
 
 					</div><br/>
+					
+					<div class="row">
+						<img class="border offshadow" style="margin-left: 10px; width:200px;" class="pull-left" src="img/reed_sturtevant.jpg" style="margin:10px;"></img> 
+						<span class="pull-right span6">
+					<h3>Reed Sturtevant</h3>
+					<strong>Co-Founder</strong>
+					<p>Reed acts as an advisor to the BSS team, mentor to the students and graduates, and is a soft-spoken grounding force on all topics related to venture capital and where BSS students fit into startup organizations. He is a founder of Project 11 and a co-instructor with Katie Rae at MIT’s Sloan School of Management. Reed was the founding Director of Microsoft Startup Labs and before that was CTO of EONS, Inc., Managing Director and VP of Technology for Idealab (which founded several companies including Picasa and Compete), and co-founder of Radnet and RadioAMP.</p>
+
+					<p>Reed has successfully sparked an array of entrepreneurial ventures. He began his career as architect and designer of Freelance Graphics, the best selling presentation package acquired by Lotus Development. At Lotus, Reed served as a key member of the senior technical staff and launched many products including InterNotes, Lotus’ first web product. Reed is an MIT dropout and holds one patent that should probably never have been granted.</p>
+					LinkedIn: http://www.linkedin.com/in/reedsturtevant<br/>
+					Twitter: http://twitter.com/reedsturtevant</span>
+					</div><br/>
+					
 					<div class="row">
 						<img class="border offshadow" style="margin-left: 10px; width:200px;" class="pull-left" src="img/mark_chang.jpg" style="margin:10px;"></img> 
 						<span class="pull-right span6">
@@ -112,7 +115,7 @@
 					<p>Aaron is an aspiring difference maker. He served as an Associate at Palm Ventures evaluating early-stage tech investments in the consumer web and education spaces. Before joining Palm, he was a key member at LivingSocial where he helped launch their Daily Deal program. Leading up to an acquisition by LivingSocial, Aaron was employee #1 at BuyYourFriendADrink.com. He cut his teeth early by Co-Founding Interactive Purchasing Solutions as an undergraduate student at Clark University. </p>
 
 					<a href="http://www.twitter.com/aaron0">@Aaron0</a><br/>
-
+					aaron@bostonstartupschool.com
 					</span>
 					</div>
 					<br>
@@ -145,6 +148,22 @@
 						</span>
 					</div>
 					<br>
+					
+					<div class="row">
+						<img class="border offshadow" style="margin-left: 10px; width:200px;" class="pull-left" src="img/john_capecelatro.jpg" style="margin:10px;"></img> 
+						<span class="pull-right span6">
+					<h3>John Capecelatro</h3>
+					<strong>Head of Student Happiness and Wearer of Multiple Hats</strong>
+					<p>John is responsible for cultivating student engagement inside and outside of the program and for promoting a unique mixture of fun, transparency, accountability, and hustle in the BSS culture. His humility and humor go hand-in-hand. He works hard to guide, encourage, and help win success for the awesome students of Boston Startup School.
+
+					<p>John thrives on the energy of big groups and loves to dabble in both HTML/CSS and self-deprecating humor. He worked as an Associate at TechStars Boston and is currently attending Babson College on the full-merit Weissman scholarship. He loves travel, especially when it involves other startup communities. John helped co-found Startup Babson to help Babson students, faculty, and alumni better engage with the local Boston tech startup community. John is obsessed with reconnecting to his German heritage so he can be found accidentally speaking German in daily conversation, packing toothpaste-like tubes of German mustard in his lunch, and debating the merits of various Hefeweizen beers. 
+					<br>
+					<a href="http://www.twitter.com/jcap49">@jcap49</a><br/>
+					john@bostonstartupschool.com
+						</span>
+					</div>
+					<br>
+					
 					<div class="row">
 						<img class="border offshadow" style="margin-left: 10px; width:200px;" class="pull-left" src="img/dee_sennecke-chow.jpg" style="margin:10px;"></img> 
 						<span class="pull-right span6">
@@ -159,20 +178,7 @@
 						</span>
 					</div>
 					<br>
-					<div class="row">
-						<img class="border offshadow" style="margin-left: 10px; width:200px;" class="pull-left" src="img/john_capecelatro.jpg" style="margin:10px;"></img> 
-						<span class="pull-right span6">
-					<h3>John Capecelatro</h3>
-					<strong>Head of Student Happiness and Wearer of Multiple Hats</strong>
-					<p>John is responsible for cultivating student engagement inside and outside of the program and for promoting a unique mixture of fun, transparency, accountability, and hustle in the BSS culture. His humility and humor go hand-in-hand. He works hard to guide, encourage, and help win success for the awesome students of Boston Startup School.
-
-					<p>John thrives on the energy of big groups and loves to dabble in both HTML/CSS and self-deprecating humor. He worked as an Associate at TechStars Boston and is currently attending Babson College on the full-merit Weissman scholarship. He loves travel, especially when it involves other startup communities. John helped co-found Startup Babson to help Babson students, faculty, and alumni better engage with the local Boston tech startup community. John is obsessed with reconnecting to his German heritage so he can be found accidentally speaking German in daily conversation, packing toothpaste-like tubes of German mustard in his lunch, and debating the merits of various Hefeweizen beers. 
-
-					<a href="http://www.twitter.com/jcap49">@jcap49</a><br/>
-					john@bostonstartupschool.com
-						</span>
-					</div>
-					<br>
+					
 					<div class="row">
 						<img class="border offshadow" style="margin-left: 10px; width:200px;" class="pull-left" src="img/jing_wei.jpg" style="margin:10px;"></img> 
 						<span class="pull-right span6">
@@ -181,7 +187,7 @@
 					<p>Jing facilitates content creation across multiple Boston Startup School media channels including our blog, BostInno Channel, Facebook, Youtube, and Twitter accounts. She is pursuing a double degree in Economics and Computer Science at Boston College. Her work in econometric analysis on consumer expenditure has been published in The Eagletarian and Boston College’s Economic Research Journal. Sure, she is wicked good at Econ but it is her love of photography which makes her perfect for capturing all of the best BSS moments. 
 
 					<p>Jing’s previous experience has ranged from a brief stint as a real estate agent to work in operations for one of the largest private banks in America. Her true passion is to learn, build, and become better as a web developer. She loves travel and impresses people with her ability to lick her elbow.
-
+					<br>
 					<a href="http://www.twitter.com/jingniwei">@jingniwei</a><br/>
 					jing@bostonstartupschool.com	</span>
 					</div>
@@ -191,8 +197,8 @@
 						<span class="pull-right span6">
 					<h3>Evan Morikawa</h3>
 					LinkedIn: http://www.linkedin.com/in/evanmorikawa<br/>
-					<a href="http://www.twitter.com/E0M">@E0M</a>
-					evan@bostonstartupschool.com ? 
+					<a href="http://www.twitter.com/E0M">@E0M</a><br>
+					evan@bostonstartupschool.com
 						</span>
 					</div>
 					<br><br>

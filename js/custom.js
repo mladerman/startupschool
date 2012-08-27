@@ -12,7 +12,7 @@ $(document).ready(function() {
 	var fullApp = $("div#fullapp");
 	var submitbutton = $("a#submitapp");
 	
-	cycleCTA();
+	timeoutId = setTimeout("cycleCTA()", 7000);
 	
 	
 	/* full application */
@@ -127,23 +127,23 @@ function cycleCTA()
 	
 	if(car == 1)
 	{
-		p1.fadeOut(1000, function() { p2.fadeIn(1000); });
+		p1.fadeOut(600, function() { p2.fadeIn(600); });
 		car = 2;
 		
 	}
 	else if(car == 2)
 	{
-		p2.fadeOut(1000, function() { p3.fadeIn(1000); });
+		p2.fadeOut(600, function() { p3.fadeIn(600); });
 		car = 3;
 	}
 	else if(car == 3)
 	{
-		p3.fadeOut(1000, function() { p4.fadeIn(1000); });
+		p3.fadeOut(600, function() { p4.fadeIn(600); });
 		car = 4;
 	}
 	else if(car == 4)
 	{
-		p4.fadeOut(1000, function() { p1.fadeIn(1000); });
+		p4.fadeOut(600, function() { p1.fadeIn(600); });
 		car = 1;
 	}
 	

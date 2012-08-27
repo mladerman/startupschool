@@ -57,10 +57,10 @@
 					If you are looking to learn valuable, relevant skills in order to be an effective employee at a startup AND grow your network within the Boston startup community, then BSS is a great place to launch your career. Whether you want to join a startup, grow your own business, or take your skills to the next level, the program is designed to help individuals at every phase in the post-grad experience.
 					
 					<div class="sectionsubtitle">Who is behind the program?</div>
-					Well, there's a number of incredible people. Boston Startup School is supported by a passionate staff (link to team), as well as key members (link to team:advisors) of the community whose focus is to advance the career of every individual who attends. In addition to that, there are well over 50 instructors (link to instructors) who play a huge role in the program's success and dozens of companies (link to partners) from the community who support the mission of Boston Startup School and are looking to hire students upon completion of the program.  
+					Well, there's a number of incredible people. Boston Startup School is supported by a passionate <a href="who.php">staff</a>, as well as key members of the community whose focus is to advance the career of every individual who attends. In addition to that, there are well over 50 instructors who play a huge role in the program's success and <a href="press.php">dozens of companies</a> from the community who support the mission of Boston Startup School and are looking to hire students upon completion of the program.  
 					
 					<div class="sectionsubtitle">What is the application process?</div>
-					It's easy. First, submit your online application. If we like what we see, the next step is a skype interview. After that, we will ask you to do a short project or task to showcase your skills and commitment. Then, if you're a superstar, we will invite you to a final interview. Boom - you're in.
+					It's easy. First, submit your online application. If we like what we see, the next step is a Skype interview. After that, we will ask you to do a short project or task to showcase your skills and commitment. Then, if you're a superstar, we will invite you to a final interview. Boom - you're in.
 					
 					<div class="sectionsubtitle">What do you look for in a candidate?</div>
 					Intelligence. Both intellectual and emotional. Communication skills and coachability. We look for bright, ambitious, action-oriented risk takers that are eager to work in the fast-paced world of startups. 
@@ -72,10 +72,10 @@
 					We expect that you be present and ready to learn Monday through Friday from about 9am to 6pm for the entire duration of the program. There are also various social and networking events on nights and weekends we highly recommend attending. 
 					
 					<div class="sectionsubtitle">What is the typical schedule like at BSS?</div>
-					The great thing is that each day is different at BSS. Like a startup, the schedule is in flux because we are constantly working to pull in great people to come and connect with our students. There will be some morning networking, specialty track time, guest lecturers, skill shares, group project work, crosstrack shenanigans, and of course, time for social activities that deliver a needed dose of stress relief. Check out what a normal week may look like. Students are encouraged to attend events together after class.
+					The great thing is that each day is different at BSS. Like a startup, the schedule is in flux because we are constantly working to pull in great people to come and connect with our students. There will be some morning networking, specialty track time, guest lecturers, skill shares, group project work, crosstrack shenanigans, and of course, time for social activities that deliver a needed dose of stress relief. Students are encouraged to attend events together after class.
 					
 					<div class="sectionsubtitle">Who are the instructors?</div>
-					CEO's, CTO's, VP's, and key leaders from within the community you're about to enter. They're all hand selected and trained by our educator-in-residence who helps fine tune lessons every day based on student-driven feedback and suggestions. 
+					CEOs, CTOs, VPs, and key leaders from within the community you're about to enter. They're all hand selected and trained by our Educators-in-Residence who helps fine tune lessons every day based on student-driven feedback and suggestions. 
 					
 					<div class="sectionsubtitle">Can I work and be part of the full-time program?</div>
 					While students in the past have attended BSS and held internships at the same time, we do not recommend committing to any internship or full-time work experience for more than 10 hours per week. Boston Startup School is a full-time, immersive experience and we expect the program to be your number one priority.
