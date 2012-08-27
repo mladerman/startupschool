@@ -50,7 +50,7 @@
 		</div>
 	</div>
 	
-	<div id="topContent" style="padding-bottom: 1px; padding-top: 39px; z-index: 1; overflow: hide;">
+	<div id="topContent" style="padding-bottom: 1px; padding-top: 39px; z-index: 1; overflow: hidden;">
 		<div class="row">
 			<!--<div class="container"> -->
 				<!--<div class="arrow" id="leftarrow"><</div> -->
