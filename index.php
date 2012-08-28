@@ -404,11 +404,11 @@
 								<a href="http://venturefizz.com/blog/why-we-need-startup-school" target="_blank"><img src="img/news/VentureFizz.gif" /></a><br>
 								
 							</div>
-							<!--
+							
 							<div class="news offshadow" style="background: #FFFFFF;">
-								<a href="#" target="_blank"><img src="img/news/nyt.jpg" /></a><br>
+								<a href="http://boss.blogs.nytimes.com/2012/08/28/a-start-up-tries-to-prepare-students-to-work-in-start-ups/" target="_blank"><img src="img/news/nyt.jpg" /></a><br>
 							</div>
-							-->
+							
 						</div>
 					</div>
 					<!--
