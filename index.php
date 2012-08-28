@@ -31,6 +31,22 @@
 
 	</script>
 	
+	<script type="text/javascript">
+    (function(c,a){window.mixpanel=a;var b,d,h,e;b=c.createElement("script");
+    b.type="text/javascript";b.async=!0;b.src=("https:"===c.location.protocol?"https:":"http:")+
+    '//cdn.mxpnl.com/libs/mixpanel-2.1.min.js';d=c.getElementsByTagName("script")[0];
+    d.parentNode.insertBefore(b,d);a._i=[];a.init=function(b,c,f){function
+d(a,b){
+    var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(
+    Array.prototype.slice.call(arguments,0)))}}var
+g=a;"undefined"!==typeof f?g=a[f]=[]:
+    f="mixpanel";g.people=g.people||[];h=['disable','track','track_pageview','track_links',
+    'track_forms','register','register_once','unregister','identify','name_tag',
+    'set_config','people.identify','people.set','people.increment'];for(e=0;e<h.length;e++)d(g,h[e]);
+    a._i.push([b,c,f])};a.__SV=1.1;})(document,window.mixpanel||[]);
+    mixpanel.init("5bdbae42c47abbbb0ae7e2133270b503");
+</script>
+	
 </head>
 
 <body>
@@ -168,33 +184,82 @@
 				<div class="span12">
 					<br>
 					<div id="why" class="sectiontitle">Why Startup School</div>
+					
 					<div class="row">
-						<div class="span4">
-							<blockquote style="height: 240px;">
-								<img src="img/quote.png" />  I’d hire from Boston Startup School over any degree because I practically lived it during TechStars. This team is great at preparing people to be ‘A’ players in a startup.  <img src="img/rightquote.png" />
-								<br><br>
-								- Nick Francis
-								<br>
-								<a href="https://www.helpscout.net/" target="_blank">CEO and Founder of Help Scout</a>
-							</blockquote>
+						<div class="span8">
+							<div class="row">
+								<img style="height:100px; margin: 15px;" class="pull-left border offshadow" src="img/alumni/nickihaylon.jpg" style="margin:10px;"></img> 
+								<span style="padding-left: 30px; margin-top: 15px; margin-bottom: 15px;">
+							<br><strong>Nicki Haylon (Marketing)</strong><br/>
+							Minister of Creative Content<br/>
+							Works at <a href="http://www.libboo.com">Libboo</a>
+								</span>
+							<br>
+							<blockquote class="light">&ldquo;Boston Startup School helped me in so many ways, but nothing compares to the network I was able to build for myself in just six short weeks. I came to Boston as a recent grad who knew no one, and now, just a few months later, I have a solid network of friends and mentors within the startup community &mdash; AND the job of my dreams! BSS opened so many doors for me and gave me the in and the confidence to succeed.&rdquo;</blockquote>
+							</div>
+							<div class="row">
+								<img style="height:100px; margin: 15px;" class="pull-left border offshadow" src="img/alumni/deandeiker.jpg" style="margin:10px;"></img> 
+								<span style="padding-left: 30px; margin-top: 15px; margin-bottom: 15px;">
+							<br><strong>Dean Dieker (Software Development)</strong><br/>
+							Software Engineer<br/>
+							Works at <a href="http://www.tapjoy.com">Tapjoy</a>
+								</span>
+							<br>
+							<blockquote class="light">&ldquo;Before Boston Startup School I knew that I wanted to be a part of the Boston Tech scene but didn't know how. I had spent some time in the defense industry and as a Karate instructor, but knew that my ability to have impact and drive a product would be enhanced in a startup environment. BSS connected me with incredible people and allowed me to find some great mentors in Boston, including my current boss, Sean Lindsay.&rdquo;</blockquote>
+							</div>
+							<div class="row">
+								<img style="height:100px; margin: 15px;" class="pull-left border offshadow" src="img/alumni/ianmarkowitz.jpg" style="margin:10px;"></img> 
+								<span style="padding-left: 30px; margin-top: 15px; margin-bottom: 15px;">
+							<br><strong>Ian Markowitz (Sales & Business Development)</strong><br/>
+							Business Analyst<br/>
+							Works at <a href="http://www.dailygrommet.com">Daily Grommet</a>
+								</span>
+							<br>
+							<blockquote class="light">&ldquo;I came to Boston Startup School with the goal of expanding my network throughout the city. Leaving the program now I not only know the 70 other students in the program, but I also can walk through any networking event or grab lunch in Kendall square and see several people I know. On top of that, they all know me and my strengths so they know what roles and what organizations I'd be effective in.&rdquo;</blockquote>
+							</div>
+							<div class="row">
+								<img style="height:100px; margin: 15px;" class="pull-left border offshadow" src="img/alumni/geordiekaytes.jpg" style="margin:10px;"></img> 
+								<span style="padding-left: 30px; margin-top: 15px; margin-bottom: 15px;">
+							<br><strong>Geordie Kaytes (Product Design)</strong><br/>
+							Apprenticeship Program Lead<br/>
+							Works at <a href="http://www.freshtilledsoil.com">Fresh Tilled Soil</a>
+								</span>
+							<br>
+							<blockquote class="light">&ldquo;At Boston Startup School, I developed the skills and connections that directly led to my current, amazing job. BSS helped me define where I wanted to go, and it gave me the tools I needed to get myself there.&rdquo;</blockquote>
+							</div>
 						</div>
 						<div class="span4">
-							<blockquote style="height: 240px;">
-								<img src="img/quote.png" />  6 weeks in the program is like spending 2 years out in the wild getting experience. It’s a professional accelerator; I’d love to hire their graduates.  <img src="img/rightquote.png" />
-								<br><br><br>
-								- Raj Aggarwal<br>
-								<a href="http://www.localytics.com/" target="_blank">CEO and Founder of Localytics</a>
-							</blockquote>
-						</div>
-						<div class="span4">
-							<blockquote style="height: 240px;">
-								<img src="img/quote.png" />  Boston Startup School is a very exciting program, which helps students bridge the gap between their academic training and their entrepreneurial aspirations and we are proud to be part of it.  <img src="img/rightquote.png" />
-								<br><br>
-								- Rudina Seseri<br>
-								<a href="http://www.fairhavencapital.com" target="_blank">Fairhaven Capital</a>
-							</blockquote>
+							<div class="row">
+								<div class="span4">
+									<blockquote style="height: 240px; margin-bottom: 80px; margin-top: 40px;">
+										<img src="img/quote.png" />  I’d hire from Boston Startup School over any degree because I practically lived it during TechStars. This team is great at preparing people to be ‘A’ players in a startup.  <img src="img/rightquote.png" />
+										<br><br>
+										- Nick Francis
+										<br>
+										<a href="https://www.helpscout.net/" target="_blank">CEO and Founder of Help Scout</a>
+									</blockquote>
+								</div>
+								<div class="span4">
+									<blockquote style="height: 240px; margin-bottom: 80px;">
+										<img src="img/quote.png" />  6 weeks in the program is like spending 2 years out in the wild getting experience. It’s a professional accelerator; I’d love to hire their graduates.  <img src="img/rightquote.png" />
+										<br><br><br>
+										- Raj Aggarwal<br>
+										<a href="http://www.localytics.com/" target="_blank">CEO and Founder of Localytics</a>
+									</blockquote>
+								</div>
+								<div class="span4">
+									<blockquote style="height: 240px;">
+										<img src="img/quote.png" />  Boston Startup School is a very exciting program, which helps students bridge the gap between their academic training and their entrepreneurial aspirations and we are proud to be part of it.  <img src="img/rightquote.png" />
+										<br><br>
+										- Rudina Seseri<br>
+										<a href="http://www.fairhavencapital.com" target="_blank">Fairhaven Capital</a>
+									</blockquote>
+								</div>
+							</div>
 						</div>
 					</div>
+					
+					
 					<div class="row">
 						<div class="span8">
 						<br>

@@ -48,7 +48,7 @@
 						<li>Become awesomely employed.</li>
 					</ul>
 				<br><br>
-				<div class="sectionsubtitle">From the words of <a href="alumni.php">BSS alumni</a>:</div>
+				<div class="sectionsubtitle">From the words of BSS alumni:</div>
 				<br>
 				<blockquote>
 					<img src="img/quote.png" />  Not only was BSS a great opportunity to learn from top names in the tech industry, it was also a unique chance to develop real relationshps with some of these thought leaders. I started talking with the instructor of our "Desgining User Experiences" session after class, and a few weeks later had landed my dream job at his design agency.  <img src="img/rightquote.png" />
