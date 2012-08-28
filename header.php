@@ -4,7 +4,7 @@
 				<div class="container">
 					<div class="nav-collapse pull-left">
 					<ul class="nav">	
-						<li><a href="index.php"><img src="favicon.ico" /></a></li>
+						<li><a href="index.php"><img src="favicon.png" /></a></li>
 						
 						<li><a href="index.php#about">About</a></li>
 

@@ -22,7 +22,7 @@
 				<div class="container">
 					<div class="nav-collapse pull-left">
 					<ul class="nav">
-						<li><a class="scroll" id="target_topContent"><img src="favicon.ico" /></a></li>
+						<li><a class="scroll" id="target_topContent"><img src="favicon.png" /></a></li>
 						
 						<li><a class="scroll" id="target_about">About</a></li>
 
@@ -59,10 +59,10 @@
 					<div style="position: relative;">
 						<a href="apply.php">
 						<div id="headerpicturewrap">
-							<span id="cta1" style="display: none;"><img src="img/carousel/1.png"/></span>
+							<span id="cta1"><img src="img/carousel/1.png"/></span>
 							<span id="cta2" style="display: none;"><img src="img/carousel/2.png"/></span>
 							<span id="cta3" style="display: none;"><img src="img/carousel/3.png"/></span>
-							<span id="cta4"><img src="img/carousel/4.png"/></span>
+							<span id="cta4" style="display: none;"><img src="img/carousel/4.png"/></span>
 						</div>
 						</a>
 					</div>
@@ -404,10 +404,11 @@
 								<a href="http://venturefizz.com/blog/why-we-need-startup-school" target="_blank"><img src="img/news/VentureFizz.gif" /></a><br>
 								
 							</div>
-							
+							<!--
 							<div class="news offshadow" style="background: #FFFFFF;">
 								<a href="#" target="_blank"><img src="img/news/nyt.jpg" /></a><br>
 							</div>
+							-->
 						</div>
 					</div>
 					<!--

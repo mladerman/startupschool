@@ -48,7 +48,6 @@
 					  </li>
 					  <li><a href="#operations" data-toggle="tab">Team</a></li>
 					  <li><a href="#instructors" data-toggle="tab">Instructors</a></li>
-					  <li><a href="#alumni" data-toggle="tab">Alumni</a></li>
 					</ul>
 					<div class="tab-content" style="display:inline;">
 					<div class="tab-pane active span9" id="advisors" >
@@ -514,53 +513,6 @@
 					LinkedIn: http://www.linkedin.com/in/patrickccampbell<br/>
 					Twitter: http://twitter.com/patticus
 					</span>
-					</div>
-					<br><br>
-					</div>
-
-
-					<div class="tab-pane span9" id="alumni" >
-						<h2 style="text-align: center;">Featured Alumni</h2>
-						<br><br>
-					<div class="row">
-						<img style="height:100px; margin: 15px;" class="pull-left border offshadow" src="img/alumni/nickihaylon.jpg" style="margin:10px;"></img> 
-						<span style="padding-left: 30px; margin-top: 15px; margin-bottom: 15px;">
-					<br><strong>Nicki Haylon (Marketing)</strong><br/>
-					Minister of Creative Content<br/>
-					Works at <a href="http://www.libboo.com">Libboo</a>
-						</span>
-					<br>
-					<blockquote class="light">&ldquo;Boston Startup School helped me in so many ways, but nothing compares to the network I was able to build for myself in just six short weeks. I came to Boston as a recent grad who knew no one, and now, just a few months later, I have a solid network of friends and mentors within the startup community &mdash; AND the job of my dreams! BSS opened so many doors for me and gave me the in and the confidence to succeed.&rdquo;</blockquote>
-					</div>
-					<div class="row">
-						<img style="height:100px; margin: 15px;" class="pull-left border offshadow" src="img/alumni/deandeiker.jpg" style="margin:10px;"></img> 
-						<span style="padding-left: 30px; margin-top: 15px; margin-bottom: 15px;">
-					<br><strong>Dean Dieker (Software Development)</strong><br/>
-					Software Engineer<br/>
-					Works at <a href="http://www.tapjoy.com">Tapjoy</a>
-						</span>
-					<br>
-					<blockquote class="light">&ldquo;Before Boston Startup School I knew that I wanted to be a part of the Boston Tech scene but didn't know how. I had spent some time in the defense industry and as a Karate instructor, but knew that my ability to have impact and drive a product would be enhanced in a startup environment. BSS connected me with incredible people and allowed me to find some great mentors in Boston, including my current boss, Sean Lindsay.&rdquo;</blockquote>
-					</div>
-					<div class="row">
-						<img style="height:100px; margin: 15px;" class="pull-left border offshadow" src="img/alumni/ianmarkowitz.jpg" style="margin:10px;"></img> 
-						<span style="padding-left: 30px; margin-top: 15px; margin-bottom: 15px;">
-					<br><strong>Ian Markowitz (Sales & Business Development)</strong><br/>
-					Business Analyst<br/>
-					Works at <a href="http://www.dailygrommet.com">Daily Grommet</a>
-						</span>
-					<br>
-					<blockquote class="light">&ldquo;I came to Boston Startup School with the goal of expanding my network throughout the city. Leaving the program now I not only know the 70 other students in the program, but I also can walk through any networking event or grab lunch in Kendall square and see several people I know. On top of that, they all know me and my strengths so they know what roles and what organizations I'd be effective in.&rdquo;</blockquote>
-					</div>
-					<div class="row">
-						<img style="height:100px; margin: 15px;" class="pull-left border offshadow" src="img/alumni/geordiekaytes.jpg" style="margin:10px;"></img> 
-						<span style="padding-left: 30px; margin-top: 15px; margin-bottom: 15px;">
-					<br><strong>Geordie Kaytes (Product Design)</strong><br/>
-					Apprenticeship Program Lead<br/>
-					Works at <a href="http://www.freshtilledsoil.com">Fresh Tilled Soil</a>
-						</span>
-					<br>
-					<blockquote class="light">&ldquo;At Boston Startup School, I developed the skills and connections that directly led to my current, amazing job. BSS helped me define where I wanted to go, and it gave me the tools I needed to get myself there.&rdquo;</blockquote>
 					</div>
 					<br><br>
 					</div>

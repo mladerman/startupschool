@@ -1,5 +1,5 @@
 var state = 1;
-var car = 4;
+var car = 1;
 var timeoutId = 1;
 
 $(document).ready(function() {
